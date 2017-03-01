@@ -15,6 +15,7 @@
 		7EAA77CE1E65323300CB6CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA77CC1E65323300CB6CFA /* LaunchScreen.storyboard */; };
 		7EAA77D91E65323300CB6CFA /* runtime____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77D81E65323300CB6CFA /* runtime____Tests.m */; };
 		7EAA77E41E65323300CB6CFA /* runtime____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77E31E65323300CB6CFA /* runtime____UITests.m */; };
+		7EAA77F61E6533E200CB6CFA /* UIImage+UIimage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA77F51E6533E200CB6CFA /* UIImage+UIimage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7EAA77DF1E65323300CB6CFA /* runtime交换方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime交换方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAA77E31E65323300CB6CFA /* runtime____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime____UITests.m"; sourceTree = "<group>"; };
 		7EAA77E51E65323300CB6CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAA77F41E6533E200CB6CFA /* UIImage+UIimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIimage.h"; sourceTree = "<group>"; };
+		7EAA77F51E6533E200CB6CFA /* UIImage+UIimage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIimage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7EAA77CC1E65323300CB6CFA /* LaunchScreen.storyboard */,
 				7EAA77CF1E65323300CB6CFA /* Info.plist */,
 				7EAA77BE1E65323300CB6CFA /* Supporting Files */,
+				7EAA77F41E6533E200CB6CFA /* UIImage+UIimage.h */,
+				7EAA77F51E6533E200CB6CFA /* UIImage+UIimage.m */,
 			);
 			path = "runtime交换方法";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAA77C61E65323300CB6CFA /* ViewController.m in Sources */,
+				7EAA77F61E6533E200CB6CFA /* UIImage+UIimage.m in Sources */,
 				7EAA77C31E65323300CB6CFA /* AppDelegate.m in Sources */,
 				7EAA77C01E65323300CB6CFA /* main.m in Sources */,
 			);

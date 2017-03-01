@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIImage+UIimage.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    UIImage *image=[UIImage imageNamed:@"1"];
+    
+    [UIImage zyn_imageNamed:@"1"];
+    //交换两个方法
+    
 }
 
 
